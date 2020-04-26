@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Data from './data/data.json';
 
-class Profile extends React.Component{
+class resume extends React.Component{
     render(){
         var indexValue=this.props.location.data.id;
         var specificprofile=Data.profiles[indexValue];
@@ -68,4 +68,4 @@ class Profile extends React.Component{
     }
 
 }
-export default Profile;
+export default resume;

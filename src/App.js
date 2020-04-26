@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import profile from './profile';
+import resume from './profile';
 import Data from './data/data.json';
 import {BrowserRouter,Route,Link} from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
-    <Route exact path="/profile" component={profile} />
+    <Route exact path="/resume" component={resume} />
     <Route exact path="/profile" component={Home} />
     </BrowserRouter>
   )
@@ -29,7 +29,7 @@ let Home=()=>{
 
           <a href={"tel:"+i.basicInfo.mobileno} className="link">{i.basicInfo.mobileno}</a><br />
 
-          <Link to={{pathname:"/profile",data:{id:index}}} className="link">View Profile>> </Link>
+          <Link to={{pathname:"/resume",data:{id:index}}} className="link">View Profile>> </Link>
         </div>
       </div>
     ))}
