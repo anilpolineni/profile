@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import profile from './profile';
+import Data from './data/data.json';
+import {BrowserRouter,Route,Link} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Route exact path="/profile" component={profile} />
+    <Route exact path="/" component={Home} />
+    </BrowserRouter>
+  )
+}
+let Home=()=>{
+  var info=Data.profiles;
+  return (
+  <section className="parent">
+    {info.map((i,index)=>(
+      <div className="card" key={index}>
+        <div clallName="card-top">
+        <h2>{i.basicInfo.name} </h2> <br/>
+        <h4><em>{i.basicInfo.role}</em></h4>
+        </div>
+
+        <div className="card-bottom">
+
+          <a href={"mailto:"+i.basicInfo.email} className="link">{i.basicInfo.email}  </a><br />
+
+          <a href={"tel:"+i.basicInfo.mobileno} className="link">{i.basicInfo.mobileno}</a><br />
+
+          <Link to={{pathname:"/profile",data:{id:index}}} className="link">View Profile>> </Link>
+        </div>
+      </div>
+    ))}
+  </section>
+
+  )
 }
 
 export default App;

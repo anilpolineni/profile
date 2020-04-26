@@ -1,0 +1,110 @@
+{
+    "profiles":
+    [
+        {
+            "basicInfo":{
+                "name":"Polineni Anil",
+                "role":"TechnicalSkillDeveloper",
+                "email":"anilpolineni09@gmail.com",
+                "mobileno":"+91 7702483004"
+
+            },
+            "education":
+            [
+                {
+                    "degree":"B-Tech(CSE)",
+                    "university":"Jntu-Kakinada",
+                    "institute":"QisCollge-Ongole",
+                    "aggregrate":"70%"
+                },
+                {
+                    "degree":"Intermediate(MPC)",
+                    "university":"Board Of Intermediate",
+                    "institute":"Srichaitanya-Ongole",
+                    "aggregrate":"75%"
+
+                },
+                {
+                    "degree":"School(1-10th)",
+                    "university":"Board Of SSC",
+                    "institute":"NarayanaHighschool-Ongole",
+                    "aggregrate":"75%"
+
+                }
+            ],
+                    "skills":
+                        {
+                            "languages":"Python,C",
+                            "technicalskills":"Django,Flask",
+                            "weddesign":"Html5,CSS,Bootstrap"
+
+                        },
+
+                    "personalstrength":
+                        {
+                            "attitude":"Focused And Confident",
+                            "attitude1":"SelfMotivative",
+                            "attitude2":"Capabile of working"
+                        },
+
+                
+                    "careerobjective":
+                    {
+                        "object":"To seek a challenging position and dedicate my services to a reputed organization where I  can effectively contribute my skills as an engineer possessing competent technical skills."
+                    }
+        },
+
+        {
+            "basicInfo":{
+                "name":"Polineni Anil",
+                "role":"TechnicalSkillDeveloper",
+                "email":"anilpolineni09@gmail.com",
+                "mobileno":"+91 7702483004"
+
+            },
+            "education":
+            [
+                {
+                    "degree":"B-Tech(CSE)",
+                    "university":"Jntu-Kakinada",
+                    "institute":"QisCollge-Ongole",
+                    "aggregrate":"70%"
+                },
+                {
+                    "degree":"Intermediate(MPC)",
+                    "university":"Board Of Intermediate",
+                    "institute":"Srichaitanya-Ongole",
+                    "aggregrate":"75%"
+
+                },
+                {
+                    "degree":"School(1-10th)",
+                    "university":"Board Of SSC",
+                    "institute":"NarayanaHighschool-Ongole",
+                    "aggregrate":"75%"
+
+                }
+            ],
+                    "skills":
+                        {
+                            "languages":"Python,C",
+                            "technicalskills":"Django,Flask",
+                            "weddesign":"Html5,CSS,Bootstrap"
+
+                        },
+
+                    "personalstrength":
+                        {
+                            "attitude":"Focused And Confident",
+                            "attitude1":"SelfMotivative",
+                            "attitude3":"Capabile of working"
+                        },
+
+                
+                    "careerobjective":
+                    {
+                        "object":"To seek a challenging position and dedicate my services to a reputed organization where I  can effectively contribute my skills as an engineer possessing competent technical skills."
+                    }
+        }
+    ]
+}
